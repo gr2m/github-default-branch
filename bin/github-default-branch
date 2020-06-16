@@ -138,7 +138,7 @@
       });
     }
 
-    if (argv.verbose) {
+    if (!argv.keepOld && argv.verbose) {
       console.log(`✏️  Deleting old branch [${old}] in ${repo}`);
     }
 
